@@ -5,8 +5,8 @@ Wordpress API to Create Post
     $fields_string = "";
     $fields = array(
       'bprequest' => true,
-      'user' => $username,
-      'pass' => $password,
+      'user' => 'admin',
+      'pass' => 'password',
       'type' => 'verify',
     );
 
@@ -15,7 +15,7 @@ Wordpress API to Create Post
 
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-    curl_setopt($ch, CURLOPT_URL, $url . $this->path);
+    curl_setopt($ch, CURLOPT_URL, 'http://example.com' . $this->path);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch,CURLOPT_POST, count($fields));
     curl_setopt($ch,CURLOPT_POSTFIELDS, $fields_string);
