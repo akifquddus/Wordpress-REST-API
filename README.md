@@ -1,5 +1,5 @@
 # Wordpress-API-
-Wordpress API to Create Post
+Simplified and Secure REST API to Create a Wordpress Post with Featured Image
 
 ## Verify User Wordpress URL and Login Info
     $fields_string = "";
