@@ -4,7 +4,7 @@ Simplified and Secure REST API to Create a Wordpress Post with Featured Image
 ## Verify User Wordpress URL and Login Info
     $fields_string = "";
     $fields = array(
-      'bprequest' => true,
+      'wprequest' => true,
       'user' => 'admin',
       'pass' => 'password',
       'type' => 'verify',
