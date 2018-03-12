@@ -28,6 +28,6 @@ $result = json_decode(curl_exec($ch));
 ```json
 {
   "status" => true,
-  "message" => "Account Successfully Verified",
+  "message" => "Account Successfully Verified"
 }
 ```
