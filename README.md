@@ -25,7 +25,7 @@ $result = json_decode(curl_exec($ch));
 ```
     
 ## Result
-```json
+```php
 {
   "status" => true,
   "message" => "Account Successfully Verified"
