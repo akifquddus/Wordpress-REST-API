@@ -1,4 +1,4 @@
-# Wordpress-API-
+# Wordpress-REST-API
 Simplified and Secure REST API to Create a Wordpress Post with Featured Image
 
 ## Verify User Wordpress URL and Login Info
